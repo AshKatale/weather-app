@@ -33,7 +33,7 @@ Check out the live demo: [Weather App](https://weatherbyashkatale.netlify.app/)
 
 3. **Set up API key:**
 
-   - Obtain an API key from [OpenWeatherMap](https://openweathermap.org/api) or any other weather API provider.
+   - Obtain an API key from [OpenWeatherMap](https://api.openweathermap.org/data/2.5/weather) or any other weather API provider.
    - Create a `.env` file in the root of your project and add your API key:
 
    ```bash
@@ -63,23 +63,7 @@ The build files will be generated in the `dist` folder.
 - **React**: A JavaScript library for building user interfaces
 - **Vite**: A fast build tool and development server for modern web projects
 - **Axios**: For making API requests
-- **CSS/SCSS**: Styling the application
-
-## Project Structure
-
-```bash
-.
-├── public/             # Static assets like images
-├── src/                # Main source code
-│   ├── assets/         # Images, icons, fonts
-│   ├── components/     # React components
-│   ├── pages/          # Page components
-│   ├── App.jsx         # Main app file
-│   ├── main.jsx        # Entry point
-├── .env                # Environment variables (API Key)
-├── package.json        # Project dependencies and scripts
-└── README.md           # Project readme (you are here)
-```
+- **CSS**: Styling the application
 
 ## License
 
